@@ -1,0 +1,208 @@
+@media screen and (min-width:500px) { 
+    .heading, #categories, #recent {
+        width: 80%;
+    }
+    .search-bar {
+        position: relative;
+        right: 0;
+        padding: 0.6rem 1rem;
+        width: max-content;
+    }
+    .search-div {
+        margin: 0;
+        padding: 0;
+    }
+    #search {
+        width: 100%;
+    }  
+}
+
+@media screen and (min-width:720px) { 
+    .heading, #categories, #recent {
+        width: auto;
+    }
+
+    main {
+        width: 750px;
+    }
+
+    #categories div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .category-link {
+        font-size: 14px;
+        padding: 0;
+        box-shadow: none;
+        margin: 0.5rem 0;
+    }
+
+    #trend-post {
+        width: 500px;
+        padding-top: 220px;
+        margin: auto;
+    }
+
+    .small-img {
+        height: 60px;
+    }
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+    #recent p {
+        font-size: 14px;
+    }
+    .grid {
+        width: 210px;
+        margin: 1rem;
+    }
+    
+    .grid .card {
+        width: 210px;
+        height: 210px;
+        margin: 0.5rem;
+    }
+}
+
+@media screen and (min-width:1024px) { 
+    #trend-post {
+        margin: 2rem 1rem;
+    }
+}
+
+
+@media screen and (min-width:1440px) { 
+    body {
+        width: 1340px;
+        margin: auto;
+        position: relative;
+        padding: 3rem;
+    }
+    h1 {
+        font-size: 3rem;
+        margin: 2rem 0;
+    }
+    h2 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    aside h2 {
+        font-size: 1.5rem;
+    }
+
+    .heading {
+        line-height: 1.5rem;
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+
+
+    aside {
+        width: 372px;
+        position: absolute;
+        right: 3rem;
+    }
+
+    .search-div {
+        padding: 1rem 0;
+    }
+
+    #search {
+        font-size: 1rem;
+    }
+    svg {
+        width: 1rem;
+        height: 1rem;
+    }
+    .search-btn {
+        padding: 1rem;
+    }
+
+
+    #categories , #recent {
+        border: solid 1px #000;
+        border-radius: 5px;
+        padding: 1rem 1rem 2rem 2rem;
+    }
+
+    .category-link {
+        font-size: 24px;
+    }
+    
+    #recent {
+        margin-top: 125px;
+    }
+
+    #recent div {
+        display: flex;
+        align-items: center;
+    }
+    
+    #recent p {
+        margin: 0;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.2rem;
+        border: solid 1px #000;
+        border-left: none;
+        padding: 0.5rem 1rem;
+    }
+
+    .small-img {
+        height: 84px;
+    }
+
+    #trend-post {
+        width: 100%;
+        padding-top: 320px;
+        line-height: 1.2rem;
+        margin-left: 1rem;
+    }
+  
+    .trend-desc {
+        padding: 1rem;
+    }
+    
+    .post-img {
+        width: 100%;
+        top: -1rem;
+        left: -1rem;
+    }
+
+    #recommend {
+        margin-top: 100px;
+        width: 100%;
+    }
+    
+    .container {
+        width: 100%;
+    }
+    
+    .grid {
+        width: 312px;
+        margin: 1rem;
+    }
+    
+    .grid .card {
+        width: 312px;
+        height: 312px;
+        margin: 0.5rem;
+    }
+    
+    small {
+        font-size: 12px;
+
+    }
+    h4 {
+        font-size: 18px;
+    }
+    
+    .trend-desc , .container {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    
+    
+}
